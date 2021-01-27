@@ -1,0 +1,12 @@
+{% extends 'blog/index.html' %}
+
+{% block content %}
+{% for posts in posts %}
+<div class="Header"><h3 ><b><a href="{% url 'post_details' pk=posts.pk %}">{{ posts.title|linebreaksbr }}</a></b></h3>
+    <br>
+</<div>
+    <p class="para">{{ posts.text|linebreaksbr }}</p><br>
+    <h6>Name of the Blogger: {{ posts.author|linebreaksbr }}</h6><br>
+    <hr>
+{% endfor %}
+{% endblock %}

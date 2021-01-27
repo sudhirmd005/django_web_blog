@@ -1,0 +1,25 @@
+body{
+    
+    padding: 25px;
+}
+.container-fluid{
+    background-color: #e0e407;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+}
+.Header h3 a, .Header h3 a:visited{
+    color: #c71d11;
+    font-family: Hachi Maru Pop;
+    
+}
+.para{
+    font-family: Fraunces;
+    font-size: 0.7cm;
+}
+img{
+    border: 5px solid rgb(144, 233, 255);
+}
+.a_pd h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.6cm;
+}

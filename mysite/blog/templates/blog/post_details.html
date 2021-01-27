@@ -1,0 +1,13 @@
+<!-- this is the page of html which displays the details of the post -->
+{% extends 'blog/index.html' %}
+
+{% block content %}
+    {% if posts.published_date %}<br>
+    <div class="a_pd">
+        <h2>Blog Title           : {{ posts.title }}</h2><br>
+        <h2>Blog Created Date    : {{ posts.created_date }}</h2><br>
+        <h2>Blog-Published date  : {{ posts.published_date }}</h2><br>
+        <h2>Blog Writter         : {{ posts.author}}</h2>
+    </div>
+    {% endif %}
+{% endblock %}
